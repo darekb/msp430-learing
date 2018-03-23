@@ -1,0 +1,5 @@
+/home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles/upload_example.dir
+/home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles/example.elf.dir
+/home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles/example.dir

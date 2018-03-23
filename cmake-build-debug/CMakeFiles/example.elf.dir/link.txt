@@ -1,0 +1,1 @@
+/usr/bin/msp430-gcc -g  -mmcu=msp430g2553 -Wl,--relax,--gc-sections CMakeFiles/example.elf.dir/example.c.obj  -o example.elf 
