@@ -8,25 +8,40 @@
 
 uint8_t ledToggleFlag = 0;
 uint8_t executeTaskFlag = 0;
-struct Task ledTimingTask;
+uint8_t ledBlinkFlag = 0;
+uint8_t ledBlinkingColorRegister = 0;
 
 int main() {
     WDTCTL = WDTPW | WDTHOLD; // disable watchdog
     timerInit();
     ledInit();
-    ledGreenOn();
-    ledRedOn();
-    ledYellowOn();
-    ledTimingTask.period = 3 * 8;
-    ledTimingTask.elapsedTime = 0;
+
+    scheluderCreateTask(ledGreenBlink, 1, 1);
+    scheluderCreateTask(ledYellowBlink, 2, 1);
+    scheluderCreateTask(ledRedBlink, 3, 0);
+
     while (1) {
         if (ledToggleFlag == 1) {
             ledToggleFlag = 0;
             ledToggle();
         }
-        if(executeTaskFlag == 1){
+        if (executeTaskFlag == 1) {
             executeTaskFlag == 0;
             scheluderExecuteTask();
+        }
+        if (ledBlinkFlag == 1) {
+            ledBlinkFlag = 0;
+            if (ledBlinkingColorRegister & LED_GREEN) {
+                ledGreenOn();
+            }
+            if (ledBlinkingColorRegister & LED_RED) {
+                ledRedOn();
+            }
+            if (ledBlinkingColorRegister & LED_YELLOW) {
+                ledYellowOn();
+            }
+        } else {
+            ledClear();
         }
         //go to sleep
         __bis_SR_register(LPM0_bits + GIE);//enable interupts

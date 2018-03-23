@@ -21,6 +21,8 @@ scheluder.h
 /home/dariusz/Arduino/MSP430/msp430-learing/led.c
 msp430.h
 -
+stdint.h
+-
 led.h
 /home/dariusz/Arduino/MSP430/msp430-learing/led.h
 
