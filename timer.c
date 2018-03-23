@@ -5,9 +5,9 @@
 #include <msp430.h>
 #include <stdio.h>
 #include "timer.h"
-#include "led.h"
 
 uint8_t timerCount = 0;
+extern uint8_t ledToggleFlag;
 
 void timerInit(){
     //seting up timer
@@ -23,6 +23,8 @@ __interrupt void TIMER0_A0_ISR(void){
     timerCount++;
     if(timerCount >= 8){
         timerCount = 0;
-        ledToggle();
+        ledToggleFlag = 1;
+        //Wake up
+        __bic_SR_register_on_exit(LPM0_bits);
     }
 }

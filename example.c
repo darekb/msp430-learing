@@ -5,11 +5,21 @@
 #include "timer.h"
 #include "led.h"
 
+uint8_t ledToggleFlag = 0;
 
 int main()
 {
     WDTCTL = WDTPW | WDTHOLD; // disable watchdog
     timerInit();
     ledInit();
-    __bis_SR_register(LPM0_bits + GIE);//enable interupts
+
+    while(1){
+        if(ledToggleFlag == 1){
+            ledToggleFlag = 0;
+            ledToggle();
+        }
+        //go to sleep
+        __bis_SR_register(LPM0_bits + GIE);//enable interupts
+    }
+    return 0;
 }
