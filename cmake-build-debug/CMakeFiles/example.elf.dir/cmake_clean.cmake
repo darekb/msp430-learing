@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example.elf.dir/example.c.obj"
+  "CMakeFiles/example.elf.dir/timer.c.obj"
+  "CMakeFiles/example.elf.dir/led.c.obj"
   "example.elf.pdb"
   "example.elf"
 )

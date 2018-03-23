@@ -97,10 +97,19 @@
 		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/example.c">
 			<Option target="example.elf"/>
 		</Unit>
-		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\"/>
+		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/led.c">
+			<Option target="example.elf"/>
 		</Unit>
-		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/generic-msp430-gcc.cmake">
+		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/led.h">
+			<Option target="example.elf"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/timer.c">
+			<Option target="example.elf"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/timer.h">
+			<Option target="example.elf"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/generic-msp430-gcc.cmake">

@@ -11,6 +11,6 @@ project(EXAMPLE)
 set(MSP430_MCU msp430g2553)
 #set(MSP430_MCU_FREQ 1000000UL)
 
-msp430_add_executable(example example.c)
+msp430_add_executable(example example.c timer.c timer.h led.c led.h)
 
 

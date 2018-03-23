@@ -71,7 +71,7 @@ CMakeFiles/upload_example.dir/all: CMakeFiles/example.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/upload_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/upload_example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/upload_example.dir/rule
@@ -98,7 +98,7 @@ clean: CMakeFiles/upload_example.dir/clean
 CMakeFiles/example.elf.dir/all:
 	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/depend
 	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target example.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target example.elf"
 .PHONY : CMakeFiles/example.elf.dir/all
 
 # Include target in all.
@@ -108,7 +108,7 @@ all: CMakeFiles/example.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example.elf.dir/rule
@@ -145,7 +145,7 @@ all: CMakeFiles/example.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example.dir/rule

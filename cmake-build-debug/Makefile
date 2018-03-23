@@ -176,6 +176,60 @@ example.c.s:
 	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/example.c.s
 .PHONY : example.c.s
 
+led.obj: led.c.obj
+
+.PHONY : led.obj
+
+# target to build an object file
+led.c.obj:
+	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/led.c.obj
+.PHONY : led.c.obj
+
+led.i: led.c.i
+
+.PHONY : led.i
+
+# target to preprocess a source file
+led.c.i:
+	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/led.c.i
+.PHONY : led.c.i
+
+led.s: led.c.s
+
+.PHONY : led.s
+
+# target to generate assembly for a file
+led.c.s:
+	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/led.c.s
+.PHONY : led.c.s
+
+timer.obj: timer.c.obj
+
+.PHONY : timer.obj
+
+# target to build an object file
+timer.c.obj:
+	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/timer.c.obj
+.PHONY : timer.c.obj
+
+timer.i: timer.c.i
+
+.PHONY : timer.i
+
+# target to preprocess a source file
+timer.c.i:
+	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/timer.c.i
+.PHONY : timer.c.i
+
+timer.s: timer.c.s
+
+.PHONY : timer.s
+
+# target to generate assembly for a file
+timer.c.s:
+	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/timer.c.s
+.PHONY : timer.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -190,6 +244,12 @@ help:
 	@echo "... example.obj"
 	@echo "... example.i"
 	@echo "... example.s"
+	@echo "... led.obj"
+	@echo "... led.i"
+	@echo "... led.s"
+	@echo "... timer.obj"
+	@echo "... timer.i"
+	@echo "... timer.s"
 .PHONY : help
 
 
