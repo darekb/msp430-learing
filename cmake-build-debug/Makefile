@@ -203,6 +203,33 @@ led.c.s:
 	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/led.c.s
 .PHONY : led.c.s
 
+scheluder.obj: scheluder.c.obj
+
+.PHONY : scheluder.obj
+
+# target to build an object file
+scheluder.c.obj:
+	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/scheluder.c.obj
+.PHONY : scheluder.c.obj
+
+scheluder.i: scheluder.c.i
+
+.PHONY : scheluder.i
+
+# target to preprocess a source file
+scheluder.c.i:
+	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/scheluder.c.i
+.PHONY : scheluder.c.i
+
+scheluder.s: scheluder.c.s
+
+.PHONY : scheluder.s
+
+# target to generate assembly for a file
+scheluder.c.s:
+	$(MAKE) -f CMakeFiles/example.elf.dir/build.make CMakeFiles/example.elf.dir/scheluder.c.s
+.PHONY : scheluder.c.s
+
 timer.obj: timer.c.obj
 
 .PHONY : timer.obj
@@ -247,6 +274,9 @@ help:
 	@echo "... led.obj"
 	@echo "... led.i"
 	@echo "... led.s"
+	@echo "... scheluder.obj"
+	@echo "... scheluder.i"
+	@echo "... scheluder.s"
 	@echo "... timer.obj"
 	@echo "... timer.i"
 	@echo "... timer.s"

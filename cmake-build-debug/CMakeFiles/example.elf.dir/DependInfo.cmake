@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/dariusz/Arduino/MSP430/msp430-learing/example.c" "/home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles/example.elf.dir/example.c.obj"
   "/home/dariusz/Arduino/MSP430/msp430-learing/led.c" "/home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles/example.elf.dir/led.c.obj"
+  "/home/dariusz/Arduino/MSP430/msp430-learing/scheluder.c" "/home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles/example.elf.dir/scheluder.c.obj"
   "/home/dariusz/Arduino/MSP430/msp430-learing/timer.c" "/home/dariusz/Arduino/MSP430/msp430-learing/cmake-build-debug/CMakeFiles/example.elf.dir/timer.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

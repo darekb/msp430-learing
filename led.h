@@ -6,5 +6,19 @@
 #define EXAMPLE_LED_H
 
 void ledInit();
+
 void ledToggle();
+
+void ledGreenOn();
+
+void ledGreenOff();
+
+void ledRedOn();
+
+void ledRedOff();
+
+void ledYellowOn();
+
+void ledYellowOff();
+
 #endif //EXAMPLE_LED_H

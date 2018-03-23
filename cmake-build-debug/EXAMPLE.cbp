@@ -103,6 +103,12 @@
 		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/led.h">
 			<Option target="example.elf"/>
 		</Unit>
+		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/scheluder.c">
+			<Option target="example.elf"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/scheluder.h">
+			<Option target="example.elf"/>
+		</Unit>
 		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/timer.c">
 			<Option target="example.elf"/>
 		</Unit>

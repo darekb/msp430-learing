@@ -8,8 +8,9 @@
 
 uint8_t timerCount = 0;
 extern uint8_t ledToggleFlag;
+extern uint8_t executeTaskFlag;
 
-void timerInit(){
+void timerInit() {
     //seting up timer
     TA0CTL |= TASSEL_1; //choose ACLK precyzyjny timer na 32kHz
     TA0CTL |= MC_1; //Count up mode
@@ -19,12 +20,14 @@ void timerInit(){
 }
 
 #pragma vector=TIMER0_A0_VECTOR
-__interrupt void TIMER0_A0_ISR(void){
+
+__interrupt void TIMER0_A0_ISR(void) {
     timerCount++;
-    if(timerCount >= 8){
+    if (timerCount >= 8) {
         timerCount = 0;
         ledToggleFlag = 1;
-        //Wake up
-        __bic_SR_register_on_exit(LPM0_bits);
     }
+    executeTaskFlag = 1;
+    //Wake up
+    __bic_SR_register_on_exit(LPM0_bits);
 }
