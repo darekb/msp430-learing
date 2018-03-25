@@ -103,8 +103,5 @@
 		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/generic-msp430-gcc.cmake">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/dariusz/Arduino/MSP430/msp430-learing/generic-msp430-gcc.cmake">
-			<Option virtualFolder="CMake Files\"/>
-		</Unit>
 	</Project>
 </CodeBlocks_project_file>
