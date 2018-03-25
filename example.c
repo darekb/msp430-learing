@@ -14,7 +14,7 @@ int main()
 	
 	while(1) //switch between P1.0 and P1.6 every seconds, until heat death of the universe
 	{
-		__delay_cycles(500000); // busy wait 1 sec, what a waste of microwatts!
+		__delay_cycles(1000000); // busy wait 1 sec, what a waste of microwatts!
 		P1OUT ^= BIT0 | BIT6; // switch P1.0 and P1.6
 	}
     return 0;
