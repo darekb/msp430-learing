@@ -8,6 +8,7 @@ CMakeFiles/example.elf.dir/example.c.obj: ../timer.h
 CMakeFiles/example.elf.dir/led.c.obj: ../led.c
 CMakeFiles/example.elf.dir/led.c.obj: ../led.h
 
+CMakeFiles/example.elf.dir/timer.c.obj: ../led.h
 CMakeFiles/example.elf.dir/timer.c.obj: ../timer.c
 CMakeFiles/example.elf.dir/timer.c.obj: ../timer.h
 

@@ -12,14 +12,13 @@ int main()
     WDTCTL = WDTPW | WDTHOLD; // disable watchdog
     timerInit();
     ledInit();
-
     while(1){
         if(ledToggleFlag == 1){
             ledToggleFlag = 0;
             ledToggle();
         }
         //go to sleep
-        __bis_SR_register(LPM0_bits + GIE);//enable interupts
+        __bis_SR_register(LPM3_bits + GIE);       // Enter LPM3 w/ interrupt
     }
     return 0;
 }
