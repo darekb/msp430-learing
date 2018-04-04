@@ -49,7 +49,7 @@ endfunction(msp430_add_executable_compilation)
 
 function(msp430_add_executable_upload ${EXECUTABLE})
 	add_custom_target(upload_${EXECUTABLE} 
-		COMMAND ${MSPDEBUG} -q rf2500 "prog ${EXECUTABLE}.elf"
+		COMMAND ${MSPDEBUG} -q tilib "prog ${EXECUTABLE}.elf"
 		DEPENDS ${EXECUTABLE})
 endfunction(msp430_add_executable_upload)
 

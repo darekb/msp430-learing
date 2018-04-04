@@ -1,19 +1,37 @@
 /home/dariusz/bin/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dariusz/Arduino/MSP430/msp430-learing
-CMake Deprecation Warning at /home/dariusz/bin/clion-2017.2.3/bin/cmake/share/cmake-3.9/Modules/CMakeForceCompiler.cmake:69 (message):
+CMake Deprecation Warning at /home/dariusz/bin/clion-2017.2.3/bin/cmake/share/cmake-3.10/Modules/CMakeForceCompiler.cmake:69 (message):
   The CMAKE_FORCE_C_COMPILER macro is deprecated.  Instead just set
   CMAKE_C_COMPILER and allow CMake to identify the compiler.
 Call Stack (most recent call first):
   generic-msp430-gcc.cmake:23 (CMAKE_FORCE_C_COMPILER)
-  cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake:6 (include)
+  /home/dariusz/bin/clion-2017.2.3/bin/cmake/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
   CMakeLists.txt:8 (project)
 
 
-CMake Deprecation Warning at /home/dariusz/bin/clion-2017.2.3/bin/cmake/share/cmake-3.9/Modules/CMakeForceCompiler.cmake:83 (message):
+CMake Deprecation Warning at /home/dariusz/bin/clion-2017.2.3/bin/cmake/share/cmake-3.10/Modules/CMakeForceCompiler.cmake:83 (message):
   The CMAKE_FORCE_CXX_COMPILER macro is deprecated.  Instead just set
   CMAKE_CXX_COMPILER and allow CMake to identify the compiler.
 Call Stack (most recent call first):
   generic-msp430-gcc.cmake:24 (CMAKE_FORCE_CXX_COMPILER)
-  cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake:6 (include)
+  /home/dariusz/bin/clion-2017.2.3/bin/cmake/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
+  CMakeLists.txt:8 (project)
+
+
+CMake Deprecation Warning at /home/dariusz/bin/clion-2017.2.3/bin/cmake/share/cmake-3.10/Modules/CMakeForceCompiler.cmake:69 (message):
+  The CMAKE_FORCE_C_COMPILER macro is deprecated.  Instead just set
+  CMAKE_C_COMPILER and allow CMake to identify the compiler.
+Call Stack (most recent call first):
+  generic-msp430-gcc.cmake:23 (CMAKE_FORCE_C_COMPILER)
+  cmake-build-debug/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:8 (project)
+
+
+CMake Deprecation Warning at /home/dariusz/bin/clion-2017.2.3/bin/cmake/share/cmake-3.10/Modules/CMakeForceCompiler.cmake:83 (message):
+  The CMAKE_FORCE_CXX_COMPILER macro is deprecated.  Instead just set
+  CMAKE_CXX_COMPILER and allow CMake to identify the compiler.
+Call Stack (most recent call first):
+  generic-msp430-gcc.cmake:24 (CMAKE_FORCE_CXX_COMPILER)
+  cmake-build-debug/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
   CMakeLists.txt:8 (project)
 
 

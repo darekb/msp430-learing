@@ -44,7 +44,7 @@ int main() {
             ledClear();
         }
         //go to sleep
-        __bis_SR_register(LPM0_bits + GIE);//enable interupts
+        __bis_SR_register(LPM3_bits + GIE);//enable interupts
     }
     return 0;
 }
