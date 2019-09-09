@@ -5,12 +5,15 @@ cmake_minimum_required(VERSION 2.8)
 set(CMAKE_TOOLCHAIN_FILE "${CMAKE_SOURCE_DIR}/generic-msp430-gcc.cmake")
 
 # Name your project
-project(EXAMPLE)
+project(MSP430G2553-blinking-leds)
+
+
+#include_directories("/opt/msp430-gcc/include")
+
 
 #device dependent config, here for launchpad
+#set(MSP430_MCU msp430f5529)
 set(MSP430_MCU msp430g2553)
 #set(MSP430_MCU_FREQ 1000000UL)
 
 msp430_add_executable(example example.c timer.c timer.h led.c led.h scheluder.c scheluder.h)
-
-

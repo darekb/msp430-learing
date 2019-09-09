@@ -10,10 +10,10 @@
 #define TASK_MAX    16
 
 typedef struct Task {
-    void (*taskFunction)(void); //Function that task execute
-    uint16_t period;      //How often it happen in timer tics
-    uint8_t repeat;       //If task should be repeat
-    uint16_t elapsedTime; //Keep track of how many timer tics have elapsed
+  void (*taskFunction)(void); //Function that task execute
+  uint16_t period;      //How often it happen in timer tics
+  uint8_t repeat;       //If task should be repeat
+  uint16_t elapsedTime; //Keep track of how many timer tics have elapsed
 } Task;
 
 void scheluderDeleteTask(uint8_t index);

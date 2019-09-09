@@ -10,66 +10,64 @@ extern uint8_t ledBlinkingColorRegister;
 extern uint8_t ledBlinkFlag;
 
 void ledInit() {
-    P1DIR |= BIT0 | BIT6; // set P1.0 and P1.6 as output
-    P1OUT |= BIT0; // start with P1.0 on
-    P1OUT &= ~BIT6; // and P1.6 off
+  P1DIR |= BIT0 | BIT6; // set P1.0 and P1.6 as output
+  P1OUT |= BIT0; // start with P1.0 on
+  P1OUT &= ~BIT6; // and P1.6 off
 
-    P1DIR |= BIT6;
-    P3DIR |= BIT3;
-    P3DIR |= BIT4;
+  P2DIR |= BIT3;
+  P2DIR |= BIT4;
+  P2DIR |= BIT5;
 
-    ledClear();
+  ledClear();
 }
 
 void ledClear() {
-    ledGreenOff();
-    ledRedOff();
-    ledYellowOff();
+  ledGreenOff();
+  ledRedOff();
+  ledYellowOff();
 
-    ledBlinkingColorRegister = 0;
+  ledBlinkingColorRegister = 0;
 }
 
 void ledToggle() {
-    P1OUT ^= BIT0 | BIT6;
+  P1OUT ^= BIT0 | BIT6;
 }
 
 void ledGreenBlink() {
-    ledBlinkingColorRegister |= LED_GREEN;
-    ledBlinkFlag = 1;
+  ledBlinkingColorRegister |= LED_GREEN;
+  ledBlinkFlag = 1;
 }
 
 void ledGreenOn() {
-    P1OUT |= BIT6;
+  P2OUT |= BIT5;
 }
 
 void ledGreenOff() {
-    P1OUT &= ~BIT6;
+  P2OUT &= ~BIT5;
 }
 
-
 void ledRedBlink() {
-    ledBlinkingColorRegister |= LED_RED;
-    ledBlinkFlag = 1;
+  ledBlinkingColorRegister |= LED_RED;
+  ledBlinkFlag = 1;
 }
 
 void ledRedOn() {
-    P3OUT |= BIT3;
+  P2OUT |= BIT3;
 }
 
 void ledRedOff() {
-    P3OUT &= ~BIT3;
+  P2OUT &= ~BIT3;
 }
 
-
 void ledYellowBlink() {
-    ledBlinkingColorRegister |= LED_YELLOW;
-    ledBlinkFlag = 1;
+  ledBlinkingColorRegister |= LED_YELLOW;
+  ledBlinkFlag = 1;
 }
 
 void ledYellowOn() {
-    P3OUT |= BIT4;
+  P2OUT |= BIT4;
 }
 
 void ledYellowOff() {
-    P3OUT &= ~BIT4;
+  P2OUT &= ~BIT4;
 }
