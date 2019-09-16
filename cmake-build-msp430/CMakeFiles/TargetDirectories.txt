@@ -1,0 +1,2 @@
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/CMakeFiles/rebuild_cache.dir
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/CMakeFiles/edit_cache.dir

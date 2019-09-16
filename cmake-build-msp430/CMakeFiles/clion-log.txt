@@ -1,0 +1,48 @@
+/opt/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE= -DCMAKE_C_COMPILER=/opt/msp430-gcc/bin/msp430-elf-gcc -DCMAKE_CXX_COMPILER=/opt/msp430-gcc/bin/msp430-elf-c++ -G "CodeBlocks - Unix Makefiles" /home/dariusz/Elektronika/Arduino/MSP430/msp430-learing
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Check for working C compiler: /usr/bin/msp430-gcc
+-- Check for working C compiler: /usr/bin/msp430-gcc -- broken
+CMake Error at /opt/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "/usr/bin/msp430-gcc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make cmTC_26da1/fast 
+    /usr/bin/make -f CMakeFiles/cmTC_26da1.dir/build.make CMakeFiles/cmTC_26da1.dir/build
+    make[1]: Wejście do katalogu '/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_26da1.dir/testCCompiler.c.obj
+    /usr/bin/msp430-gcc GNU    -o CMakeFiles/cmTC_26da1.dir/testCCompiler.c.obj   -c /home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/CMakeFiles/CMakeTmp/testCCompiler.c
+    msp430-gcc: error: GNU: Nie ma takiego pliku ani katalogu
+    make[1]: *** [CMakeFiles/cmTC_26da1.dir/build.make:66: CMakeFiles/cmTC_26da1.dir/testCCompiler.c.obj] Błąd 1
+    make[1]: Opuszczenie katalogu '/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/CMakeFiles/CMakeTmp'
+    make: *** [Makefile:121: cmTC_26da1/fast] Błąd 2
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/CMakeFiles/CMakeOutput.log".
+See also "/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/CMakeFiles/CMakeError.log".
+You have changed variables that require your cache to be deleted.
+Configure will be re-run and you may have to reset some variables.
+The following variables have changed:
+CMAKE_C_COMPILER= /opt/msp430-gcc/bin/msp430-elf-gcc
+CMAKE_CXX_COMPILER= /opt/msp430-gcc/bin/msp430-elf-c++
+
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_MAKE_PROGRAM
+-- Generating done
+-- Build files have been written to: /home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430

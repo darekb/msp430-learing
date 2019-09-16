@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/dariusz/Arduino/MSP430/msp430-learing/example.c
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/example.c
 msp430.h
 -
 stdio.h
 -
 timer.h
-/home/dariusz/Arduino/MSP430/msp430-learing/timer.h
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/timer.h
 led.h
-/home/dariusz/Arduino/MSP430/msp430-learing/led.h
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/led.h
 
-/home/dariusz/Arduino/MSP430/msp430-learing/led.c
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/led.c
 msp430.h
 -
 led.h
-/home/dariusz/Arduino/MSP430/msp430-learing/led.h
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/led.h
 
-/home/dariusz/Arduino/MSP430/msp430-learing/led.h
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/led.h
 
-/home/dariusz/Arduino/MSP430/msp430-learing/timer.c
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/timer.c
 msp430.h
 -
 stdio.h
 -
 timer.h
-/home/dariusz/Arduino/MSP430/msp430-learing/timer.h
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/timer.h
 led.h
-/home/dariusz/Arduino/MSP430/msp430-learing/led.h
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/led.h
 
-/home/dariusz/Arduino/MSP430/msp430-learing/timer.h
+/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/timer.h
 

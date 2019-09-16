@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-debug")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

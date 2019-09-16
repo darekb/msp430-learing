@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MSP430G2553-blinking-led3s"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upload_example">
+				<Option working_dir="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 upload_example"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option working_dir="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example.elf">
+				<Option output="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/example.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/../../../../msp430-elf/include/c++/8.2.0"/>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/../../../../msp430-elf/include/c++/8.2.0/msp430-elf"/>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/../../../../msp430-elf/include/c++/8.2.0/backward"/>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/include"/>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/include-fixed"/>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/../../../../msp430-elf/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 example.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example.elf/fast">
+				<Option output="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/example.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/../../../../msp430-elf/include/c++/8.2.0"/>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/../../../../msp430-elf/include/c++/8.2.0/msp430-elf"/>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/../../../../msp430-elf/include/c++/8.2.0/backward"/>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/include"/>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/include-fixed"/>
+					<Add directory="/opt/msp430-gcc-8.2.0.52_linux64/bin/../lib/gcc/msp430-elf/8.2.0/../../../../msp430-elf/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 example.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/cmake-build-msp430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/example.c">
+			<Option target="example.elf"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/led.c">
+			<Option target="example.elf"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/led.h">
+			<Option target="example.elf"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/scheluder.c">
+			<Option target="example.elf"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/scheluder.h">
+			<Option target="example.elf"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/timer.c">
+			<Option target="example.elf"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/timer.h">
+			<Option target="example.elf"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dariusz/Elektronika/Arduino/MSP430/msp430-learing/generic-msp430-gcc.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
